@@ -1,0 +1,32 @@
+.projectcard-container{
+    max-width: 90vw;
+    margin: auto;
+    display: grid;
+    z-index: -1;
+}
+.project-card{
+    background: #1a1919;
+    padding: 1rem 0;
+    border: 1px solid white;
+    margin: 1rem 0;
+}
+.project-card h2{
+    color: white;
+    padding-left: 0.5rem;
+}
+.project-card-text{
+    padding: 0.5rem;
+}
+.project-card-text li{
+    padding: 0.3rem;
+    color: white;
+}
+.project-card-text ul{
+    padding: 0.8rem;
+    list-style-type: circle;
+}
+.pro-btn{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
