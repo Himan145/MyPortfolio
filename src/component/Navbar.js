@@ -21,7 +21,7 @@ export const Navbar=()=>{
   return (
     <div className={color?'header header-bg':'header'}>
       <Link to={"/"}>
-        <h1>Portfolio</h1>
+        <h1>Himan Biswas</h1>
       </Link>
       <ul className={click?'nav-menu active':'nav-menu'}>
         <li>
@@ -35,6 +35,9 @@ export const Navbar=()=>{
         </li>
         <li>
           <Link to={"/contact"}>Contact</Link>
+        </li>
+        <li>
+          <Link to={"https://drive.google.com/file/d/1aqJdKtC7i9MFaNtXP1QNL2LFgefN8tL8/view?usp=drive_link"}>Resume</Link>
         </li>
       </ul>
       <div className='hamburger' onClick={handleClick}>
