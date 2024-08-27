@@ -37,7 +37,7 @@ export const Navbar=()=>{
           <Link to={"/contact"}>Contact</Link>
         </li>
         <li>
-          <Link to={"https://drive.google.com/file/d/1aqJdKtC7i9MFaNtXP1QNL2LFgefN8tL8/view?usp=drive_link"}>Resume</Link>
+          <Link to={"/"}>Resume</Link>
         </li>
       </ul>
       <div className='hamburger' onClick={handleClick}>
